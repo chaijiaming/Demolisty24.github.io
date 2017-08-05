@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Practice and Reference Sheet & Structure and Section 6: Table</title>
+  </head>
+  
+  <body>
+  	<h1 id="top">HTML Reference Based on <cite>HTML&CSS design and build websites by Jon Duckett</cite> and Section 6: Table</h1>
+  	<hr />
+  	<h2>Sections</h2>
+  		<ul>
+  			<li><a href="index.html">Home and Section 1: Strcuture</a></li>
+  			<li><a href="Text.html">Section 2: Text</a></li>
+  			<li><a href="List.html">Section 3: List</a></li>
+  			<li><a href="Link.html">Section 4: Link</a></li>
+  			<li><a href="Images.html">Section 5: Images</a></li>
+  			<li><a href="Table.html">Section 6: Table</a></li>
+  		</ul>
+  	<hr />
+  	<h2>Table of Content</h2>
+  		<ul>
+  			<li><a href="#structure">Basic Structure</a></li>
+  			<li><a href="#heading">Table Heading</a></li>
+  			<li><a href="#spanning">Spanning Row or Column</a></li>
+  			<ul>
+  				<li><a href="#rowspan">Spanning Row</a></li>
+  				<li><a href="#colspan">Spanning Column</a></li>
+  			</ul>
+  			<li><a href="#long table">Long Table Structure</a></li>
+  		</ul>
+  	<hr />
+  	<h1 id = table>Table</h1>
+  		<ul>
+  			<li><h2 id=structure>Basic Strucutre of a Table</h2></li>
+  				<p>To create a table, we would need to use the element <q><b>table</b></q>, which you should think of it as a the warpper or the overall part which contains the rows and data. Then inside the table element, you will need to use the <q><b>tr</b></q> element to create rows in the table and store data using the tag <q><b>td</b></q> between a tr tag. This allow you to create a table with rows of <q>data</q></p>
+  				<p><b>Tag:</b> table (first and wrap everything inside the table with the ending tag), tr (to create rows in the table), and td (to create data in the a row in the table).</p>
+  				<b>Example:</b>
+  				<blockquote>An example of how a table code is written is: <br /> <img src="image/Table/Strucutre_Code.png" alt="Table structure code" />
+  					<table>
+  						<tr>
+  							<td>86</td>
+  							<td>60</td>
+  							<td>48</td>
+  						</tr>
+  						<tr>
+  							<td>52</td>
+  							<td>48</td>
+  							<td>70</td>
+  						</tr>
+  						<tr>
+  							<td>92</td>
+  							<td>70</td>
+  							<td>86</td>
+  						</tr>
+  					</table>
+  				</blockquote>
+  			
+  			<hr />
+  			<li><h2 id="heading">Table Heading</h2></li>
+  				<p>Instead of the the <q>table</q> that we saw above without any label or tag associating with the row and column, we can use something call table heading (<b>th</b>) to set a name for those columns and rows.</p>
+  				<p><b>Tag:</b> th</p>
+  				<b>Example:</b>
+  				<blockquote>An example of how a table with heading is written is: <br /> <img src="image/Table/Heading.png" alt="Table Heading code" /><br />The scope in the code is used to identify whhether it is a heading for a column or for a row.<br />
+  					<table>
+  						<tr>
+  							<th></th>
+  							<th scope="col">Midterm 1</th>
+  							<th scope="col">Midterm 2</th>
+  							<th scope="col">Final</th>
+  						</tr>
+  						<tr>
+  							<th scope="row">CMPSC 465</th>
+  							<td>86</td>
+  							<td>60</td>
+  							<td>48</td>
+  						</tr>
+  						<tr>
+  							<th scope="row">CMPEN 331</th>
+  							<td>52</td>
+  							<td>48</td>
+  							<td>70</td>
+  						</tr>
+  						<tr>
+  							<th scope="row">ECON 102</th>
+  							<td>92</td>
+  							<td>70</td>
+  							<td>86</td>
+  						</tr>
+  					</table>
+  				</blockquote>
+  			
+  			<hr />
+  			<li><h2 id="spanning">Spanning Over a Rows or Column</h2></li>  	
+  				<p>For a particular data in the table, it is possible to have it span over a column or a row with the attribute <q><b>colspan</b></q> or <q><b>rowspan</b></q></p>
+  				<ul>
+  				<li><h2 id="rowspan">Row Spanning</h2></li>
+  					<p>You can span a data over to another row using the attribute <q><b>rowspan</b></q> followed by the number of row you want to span</p>
+  					<p><b>Attribute:</b> rowspan</p>
+  					<b>Example:</b>
+  					<blockquote>
+  						An example of using rowspan is: <br/>
+  						<img src="image/Table/rowspan.png" alt="Row spanning code" /> <br/>
+  						Task to do:
+	  					<table>
+	  						<tr>
+	  							<th></th>
+	  							<th scope="col">9:00</th>
+	  							<th scope="col">10:00</th>
+	  							<th scope="col">11:00</th>
+	  							<th scope="col">12:00</th>
+	  						</tr>
+	  						<tr>
+	  							<th scope="row">Saturday</th>
+	  							<td>Sweeping</td>
+	  							<td rowspan="2">Cooking</td>
+	  							<td rowspan="2">Eating</td>
+	  							<td>Laundry</td>
+
+	  						</tr>
+	  						<tr>
+	  							<th scope="row">Sunday</th>
+	  							<td>Grocery</td>
+	  							<td>Cleaning</td>
+	  						</tr>
+	  					</table>
+	  				</blockquote>
+	  			<hr />
+	  			<li><h2 id="colspan">Column Spanning</h2></li>
+	  				<p> You can span a data over another column using the attribute <q><b>colspan</b></q> followed by the number of column you want to span</p>
+  					<p><b>Attribute:</b> colspan</p>
+  					<b>Example:</b>
+  					<blockquote>
+  						An example of using colspan is: <br/>
+  						<img src="image/Table/colspan.png" alt="Column spanning code" /> <br/>
+  						Task to do:
+	  					<table>
+	  						<tr>
+	  							<th></th>
+	  							<th scope="col">9:00</th>
+	  							<th scope="col">10:00</th>
+	  							<th scope="col">11:00</th>
+	  							<th scope="col">12:00</th>
+	  						</tr>
+	  						<tr>
+	  							<th scope="row">Saturday</th>
+	  							<td>Sweeping</td>
+	  							<td colspan="2">Cooking</td>
+									<td>Lunch</td>
+	  						</tr>
+	  						<tr>
+	  							<th scope="row">Sunday</th>
+	  							<td colspan="3">Cleaning</td>	  							
+	  							<td>Watch TV</td>
+	  						</tr>
+	  					</table>
+	  				</blockquote>
+	  			</ul>
+	  		<li><h2 id="long table">Long Table</h2></li>
+	  			<p>In the case where we have a very long table, we can separate the table in the part of the header, body, and footer</p>
+	  			<p><b>Tags:</b> thead (for the header), tbody (for the body), tfoot (for the footer)</p>
+	  			<blockquote>An example of using these tags:<br/> <img src="image/Table/Long Table.png" alt="Long Table Tag Usage" /> <br />
+  					<table>
+  						<thead>
+	  						<tr>
+	  							<th></th>
+	  							<th scope="col">Midterm 1</th>
+	  							<th scope="col">Midterm 2</th>
+	  							<th scope="col">Final</th>
+	  						</tr>
+	  					</thead>
+	  					<tbody>
+	  						<tr>
+	  							<th scope="row">CMPSC 465</th>
+	  							<td>86</td>
+	  							<td>60</td>
+	  							<td>48</td>
+	  						</tr>
+	  						<tr>
+	  							<th scope="row">CMPEN 331</th>
+	  							<td>52</td>
+	  							<td>48</td>
+	  							<td>70</td>
+	  						</tr>
+	  						<tr>
+	  							<th scope="row">ECON 102</th>
+	  							<td>92</td>
+	  							<td>70</td>
+	  							<td>86</td>
+	  						</tr>
+  						</tbody>
+  						<tfoot>
+  							<tr>
+  								<th scope="row">Average of Score</th>
+  								<td>70</td>
+  								<td>59</td>
+  								<td>69</td>
+  							</tr>
+  						</tfoot>
+  					</table>
+	  			</blockquote>
+  		</ul>
+		<hr />
+		<p> <a href="#top">Return to the top of the page</a>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ Peter Luo</p>
+  </body>
+</html>

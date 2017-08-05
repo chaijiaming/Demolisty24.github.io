@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Practice and Reference Sheet & Structure and Section 5: Images</title>
+  </head>
+  <body>
+  	<h1 id="top">HTML Reference Based on <cite>HTML&CSS design and build websites by Jon Duckett</cite> and Section 5: Images</h1>
+  	<hr />
+  	<h2>Sections</h2>
+  		<ul>
+  			<li><a href="index.html">Home and Section 1: Strcuture</a></li>
+  			<li><a href="Text.html">Section 2: Text</a></li>
+  			<li><a href="List.html">Section 3: List</a></li>
+  			<li><a href="Link.html">Section 4: Link</a></li>
+  			<li><a href="Images.html">Section 5: Images</a></li>
+  			<li><a href="Table.html">Section 6: Table</a></li>
+  		</ul>
+  	<hr />
+  	<h2>Table of Content</h2>
+  		<ul>
+  			<li><a href="#images">Images</a></li>
+  			<li><a href="#attribute">Attribute</a></li>
+  			<ul>
+				 	<li><a href="#src">Source</a></li>
+		 			<li><a href="#alt">Alternative</a></li>
+		 			<li><a href="#title">Title</a></li>
+		 			<li><a href="#h&w">Height and Width</a></li>
+		 			<li><a href="#pic placement">Picture placement in Text</a></li>
+		 		</ul>
+		 		<li><a href="#file type">Image File Types</a></li>
+		 		<li><a href="#transparency">Image Transparency</a></li>
+		 		<li><a href="#figure">Figure and Figure Caption</a></li>
+  		</ul>
+  	<hr />
+		<h1 id="images">Images</h1>  	
+			<p>To add images to your page, you will need to use the <q><b>img</b></q> tag/element along with an URL to the image. This URL is usually a relative URL to a folder containing all of the images that you might use in the site</p>
+			<p>Note that an image tag is an empty tag, so this means that there is no ending tag and you need to include other attribute to the img tag to give more information to the img</p>
+		<h2 id ="attribute">Attributes</h2>
+			<ul>
+				<li><h2 id="src">Source</h2></li>
+					<p>Note that to first including an image on your site, not only do you need to include the img tag, but also the source link to the image. To link the source of the image to the page, in your img tag you will need to include the <q><b>src</b></q> attribute.</p>
+					<p><b>Attribute:</b> src</p>
+					<blockquote>An example of using the source attribute is <q><b>img src="source path" /</b></q> <br /><img src="image/WTC_Complex.jpg" /></blockquote>
+				<hr />
+				<li><h2 id="alt">Alternative</h2></li>
+					<p>In the case where the picture is not available or is unable to connect to the source link, an alt attribute allows the user to see a text that describes that the picture was intended to be</p>
+					<p><b>Attribute:</b> alt</p>
+					<blockquote>An example of using the alt attribute is <q><b>img src="source path" alt="some alternative name"</b></q> <br /><img src="image/Null.jpg" alt="Missing Picture" /></blockquote>
+				<hr />
+				<li><h2 id="title">Title</h2></li>
+					<p>The title attribute will simply provide additional information when hover over the picture</p>
+					<p><b>Attribute:</b> title</p>
+						<blockquote>An example of using the title attibute is <q><b>img src="source path" title="some additional information" /</b></q> <br /><img src="image/WTC_Complex.jpg" title="New World Trade Center Complex" /></blockquote>
+				<hr />
+				<li><h2 id="h&w">Height and Width</h2></li>
+					<p>The image's height and width can be modified through the <q><b>height</b></q> and <q><b>width</b></q> tag</p>
+					<p><b>Attribute:</b> height (for height) and width (for width)</p>
+					<blockquote>An example of using the height and width atribute is <q><b>img src="source path" height="some # in pixles" width="some # in pixles" /</b></q> <br /> you can also just included only the height or the width by itself to modify that part without changing the other</blockquote>
+					<blockquote><img src="image/WTC_Complex.jpg" title="original" alt="original" /> <img src="image/WTC_Complex.jpg" title="height only change" alt="height change" height="400"/><br/><img src="image/WTC_Complex.jpg" title="width only change" alt="width change" width="600" /> <img src="image/WTC_Complex.jpg" title="changing both height and width" alt="height and width change" height ="400" width="400"/>
+					</blockquote>
+				<li><h2 id="pic placement">Picture Placement Within Text</h2></li>
+					<p>There are various place you can place a picture, either by itself or in a text or some ohter possible locations. However, placing pictures in a body of text will affect how the text will look in the page</p>
+					<b>Example:</b>
+					<blockquote><b>Picture before text</b><br /><img src="image/WTC_Complex.jpg" alt="picture before text" height="200" width ="200" />The former world trade center was destroyed on September 11, 2001 through an organzied plan created by a terrorist group called Al-Qaeda which unexpected penetrated the United State Defense. Today there is a new projec intended as the revival of the World Trade Center Complex, it consists of a few distinctive building which one can see from across Manhattan<hr />
+					<b>Picture in text</b><br />The former world trade center was destroyed on September 11, 2001 through an organzied plan created by a terrorist group called Al-Qaeda which unexpected penetrated the United State Defense. <img src="image/WTC_Complex.jpg" alt="picture before text" height="200" width="200" />Today there is a new projec intended as the revival of the World Trade Center Complex, it consists of a few distinctive building which one can see from across Manhattan<hr />
+					<b>Picture after text</b><br />The former world trade center was destroyed on September 11, 2001 through an organzied plan created by a terrorist group called Al-Qaeda which unexpected penetrated the United State Defense. Today there is a new projec intended as the revival of the World Trade Center Complex, it consists of a few distinctive building which one can see from across Manhattan<img src="image/WTC_Complex.jpg" alt="picture before text" height ="200" width="200"/></blockquote>
+				</ul>
+			<hr />
+		<h2 id="file type">Image File Types</h2>
+			<p>There are various file type that is associated with each image.</p>
+				<ul>
+					<li><p><b>JPEG (JPG):</b> When a picture has alot of different colors in terms of either hue or saturation, it is recommended to have the picture's file type as JPEG.</p></li>
+					<li><p><b>GIF and PNG:</b> When a picture has little colors or flat colors. (which is where there is an area with the same color all over), it is recommended to save the picture as a GIF or PNG. Note that subtle difference or shades of a particular color is not the same as that color itself)</p></li>
+					<li><p><b>SVG:</b> This is a more relatively new image file type, it is made up of vectors, which means placing points on the grid and draw lines between those point and have color fill in the lines that have filled in. This file type would not be affected when changing its dimension size.</p></li>
+					<li><p><b>Animated GIF:</b> This file type shows several frames of an image in sequence to show simple animations. Usually a loading screen logo is an animated gif, which is made up of several other individual gif and shown in sequence.</p></li>
+				</ul>
+		<hr />
+		<h2 id="transparency">Transparency</h2>
+			<p>We can also change how a picture look through the concept of transparency. There are 2 format that one can choose to create an inmage that is transparent, the transparent gif or the png.</p>
+			<ul>
+				<li><p>It is recommended to save an image with <em>straight edge and is 100% transparent</em> as a gif with the transparency option selected</p></li>
+				<li><p>On the other hand, it is recommended to save an image with transparent part that has a diagonal or rounded edge or a semi-opaque or drop-shadow as a PNG</p></li>
+			</ul>
+		<hr />
+		<h2 id="figure">Figure and Figure Caption</h2>
+			<p>If we want a picture with caption, we create this with the figure tag with the image and caption inside the element to create this picture with caption</p>
+			<p><b>Tag:</b> figure (wrapper) and figcaption (caption)</p>
+			<b>Example:</b>
+			<blockquote>An example of how to use this figure element is <q><b>figure> < img src="the source" > < br / > < figcaption> the text </ figurecaption></b></q> <br /> 
+				<figure>
+					<img src="image/WTC_Complex.jpg" alt="Shoreline of the new WTC complex" />
+					<br />
+					<figcaption>This new World Trade Center complex is build at the site of the former WTC that was destroyed on September 11, 2001. We can see how this complex would look like from across the shoreline from New Jersey</figcaption>
+				</figure>
+			</blockquote>
+		<hr />
+		<p> <a href="#top">Return to the top of the page</a>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ Peter Luo</p>		
+  </body>
+</html>

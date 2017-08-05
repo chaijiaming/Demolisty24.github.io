@@ -1,0 +1,27 @@
+ul {
+	list-style-type: none;
+}
+
+.listing li{
+	display: inline;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+@media (min-width: 768px){}
+.intro{
+	height: 100%;
+	padding: 20px;
+	}
+}
+.intro{
+	display: table;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.intro .intro-body{
+	vertical-align:middle;
+	display: table-cell;
+}
