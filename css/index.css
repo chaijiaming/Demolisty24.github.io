@@ -1,6 +1,14 @@
 ul {
 	list-style-type: none;
 }
+#images{
+	height: 42px;
+	width: 42px;
+}
+.glyphicon.glyphicon-envelope{
+	font-size: 42px;
+	text-align: bottom;
+}
 
 .listing li{
 	display: inline;
@@ -17,11 +25,8 @@ ul {
 .intro{
 	display: table;
 	width: 100%;
-	text-align: center;
-	
 }
 
 .intro .intro-body{
 	vertical-align:middle;
-	display: table-cell;
 }
