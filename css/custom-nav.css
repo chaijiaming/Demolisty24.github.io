@@ -1,0 +1,9 @@
+ul {
+	list-style-type: none;
+}
+
+.navbar-custom{
+  min-height: 70px;
+  border-bottom: #000;
+  
+}
