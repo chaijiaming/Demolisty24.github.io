@@ -16,6 +16,10 @@ h6{
   padding-bottom: 15px;
 }
 
+h1{
+  margin-top: 0px;
+}
+
 video,
 object,
 img{
@@ -26,6 +30,9 @@ img{
 
 object{
     width: 900px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+     height: 700px;
 }
 
 #caption{
@@ -58,12 +65,16 @@ object{
   background-attachment: fixed;
 }
 
-#Instruction-Set{
-
+#instruction-set{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/Opened-hardware-laptop.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #Guide{
-
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/eecs.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #body-container{
