@@ -1,3 +1,35 @@
+/*
+Theme Name: Index Page Stylesheet
+Description: Modification on Main Page
+Author: Suilong (Peter) Luo
+Author URI: demolisty24.github.io
+Tags: Margining, Website
+*/
+body{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bokeh-1129065_1280.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.response {
+  padding: 10px 0px 10px 0px;
+}
+
+#Reflection{
+  color: #ffffff;
+}
+
+#Reflection h1{
+  padding-bottom: 30px;
+}
+
 .Section-Heading{
   border-top-style: solid;
   padding-top: 40px;

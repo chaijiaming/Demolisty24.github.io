@@ -8,9 +8,9 @@
 
 		<title> Suilong Luo</title>
 		<link href="css/custom-nav.css" rel="stylesheet">
-		<link href="css/index.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
 		<!--TO-Do-->
 		<meta name="description" content="Suilong Luo's personal portfolio">
 	</head>
@@ -38,10 +38,13 @@
 								<a class="dropdown-caret dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="projects.html#AlexaMD">AlexaMD</a></li>
-									<li><a href="Projects.html#Alexa++">Alexa++</a></li>
+									<li><a href="Projects.html#AlexaPP">Alexa++</a></li>
+									<li><a href="Projects.html#HTML-Guide">HTML Guide</a></li>
+									<li><a href="Projects.html#instruction-set">Disassembly and Cleang Laptop Manual</a></li>
+									<li><a href="Projects.html#Guide">Guide for Computer Science Major</a></li>
 								</ul>
 							</li>
-							<li class="">
+							<li>
 			    			<a href="reflection.html">Reflection</a>
 			    		</li>
 			    		<li>
@@ -53,13 +56,14 @@
 			</nav>
 		<!--./End Navigation Bar -->
 		<!--Body Section -->
-			<header class="intro" style ="text-align: center">
-				<div class="intro-body">
+			<header class="intro">
+				<div id="body-container-padding"></div>
+				<div class="intro-body" id="body-container">
 					<div class="container">
 						<div class="row">
-							<div class="portrait" style="padding-top: 12%">
-								<div class="row alight-items-center">
-									<img src="img/Portrait-picture.jpg" alt="Personal Picture">
+							<div class="portrait">
+								<div class="row">
+									<img class="img-circle" src="img/Portrait-picture.jpg" alt="Personal Picture">
 								</div>
 							</div>
 						</div>
@@ -68,14 +72,14 @@
 						<div class="intro-description">
 							<div class="row">
 								<div class="col ">
-									<h1 class="name"> Suilong Luo</h1>
-									<h3 class="description">Aspiring Software Engineer With The Future in Mind<h3>
+									<h1 id="name">Suilong Luo</h1>
+									<h3 id="description">Aspiring Software Engineer With The Future in Mind<h3>
 								</div>
 							</div>
 						</div>
-						<div class="intro-media-style">
+						<div class="intro-media">
 							<div clas="row">
-								<ul class="listing" style="padding-top: 40px">
+								<ul class="listing">
 									<li><a href="mailto: suilong24@gmail.com" target="_blank" ><img src="img/envelope-icon-5.png" alt="email" id="images"></a></li>
 									<li><a href="https://www.linkedin.com/in/suilongluo24/" target="._blank"><img src="img/linkedin-logo.svg" id="images"></a></li>
 									<li><a href="https://github.com/demolisty24" target="._blank"><img src="img/github-logo.svg" id="images"></a></li>
@@ -92,43 +96,4 @@
   	<script src="js/bootstrap.min.js"></script>
   	<script src="js/custom.js"></script>
 	</body>
-
-
-<!--
-<body>
-	<div class="about-wrapper">
-		<div class="about-masthead">
-			<div class="about-container">
-				<div class="about-inner">
-					<div class="header text-center">
-						<h1>Suilong (Peter) Luo</h1>
-					</div>
-					<div class="selection">
-						<nav class="nav nav-pills" role = "presentation">
-							<ul class="nav navbar nav-justified selection">
-								<li class="active disabled"><a href="https://demolisty24.github.io/Website-0.0/">Profile</a></li>
-								<li><a href="https://demolisty24.github.io/Website-0.0/Projects/index.html">Projects</a></li>
-								<li><a href="https://drive.google.com/open?id=0B3ILSjy3vj1qNFU4ci04RU44aVk" target="_blank">Resume</a></li>
-							</ul>
-						</nav>
-					</div>
-					<div class="site-about-info">
-						<h2>Pennsylvania State University</h2>
-						<h2>B.S. Computer Science 2019, Math Minor</h2>
-					</div>
-					<footer class="footer">
-						<div class="container" style="position: relative">
-							<p style="position: fixed; bottom: 0; width:20%; text-align: center"> &copy; Suilong Luo's Website powered by <a href="http://getbootstrap.com/">Bootstrap</a>
-							</p>
-						</div>
-					</footer>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
--->
 </html>

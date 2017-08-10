@@ -1,10 +1,100 @@
-.Projects{
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 30%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
-  background: red;
+/*
+Theme Name: Index Page Stylesheet
+Description: Modification on Main Page
+Author: Suilong (Peter) Luo
+Author URI: demolisty24.github.io
+Tags: Margining, Website
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+video,
+object,
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+object{
+    width: 900px;
+}
+
+#caption{
+  padding-top:5px;
+  text-align: center;
+}
+
+#hackathon{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/mlh-logo.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000;
+}
+
+#AlexaMD{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/hackdartmouth.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#AlexaPP{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/kenthackenough-logo.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#HTML-Guide{
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/sample-html.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Instruction-Set{
+
+}
+
+#Guide{
+
+}
+
+#body-container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: 20%;
+  line-height: 150%;
+  font-size: 130%;
+  color: white;
+}
+
+#Pre-item-description{
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+#media{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-section-body{
+  color:white;
+}
+
+.img-circle{
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.link-style{
+  text-align: center;
 }

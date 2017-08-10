@@ -1,13 +1,28 @@
+/*
+Theme Name: Index Page Stylesheet
+Description: Modification on Main Page
+Author: Suilong (Peter) Luo
+Author URI: demolisty24.github.io
+Tags: Margining, Website
+*/
+body{
+	background: url("../img/grass-801753_1280.jpg") no-repeat center;
+	background-size: cover;
+	height: 93%;
+	background-attachment: fixed;
+}
+
 ul {
 	list-style-type: none;
 }
-#images{
-	height: 42px;
-	width: 42px;
-}
+
 .glyphicon.glyphicon-envelope{
 	font-size: 42px;
 	text-align: bottom;
+}
+
+.listing{
+	 padding-top: 30px;
 }
 
 .listing li{
@@ -24,8 +39,43 @@ ul {
 .intro{
 	display: table;
 	width: 100%;
+	text-align: center;
 }
 
 .intro .intro-body{
 	vertical-align:middle;
+}
+
+.intro-description{
+	color: #000;
+	text-align: center;
+}
+
+.intro-media{
+	text-align: center;
+}
+
+.img-circle{
+	border: 1px solid black;
+}
+
+.portrait{
+	 text-align:center;
+   padding-top: 8%;
+	 padding-bottom: 10px;
+}
+
+
+
+#description{
+	font-weight: normal;
+}
+
+#name{
+	padding-bottom: 10px;
+}
+
+#images{
+	height: 42px;
+	width: 42px;
 }

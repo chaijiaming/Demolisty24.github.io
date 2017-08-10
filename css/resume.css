@@ -1,0 +1,14 @@
+body{
+  background: url("../img/grass-801753_1280.jpg") no-repeat center;
+  background-size: cover ;
+  background-attachment: fixed;
+}
+
+object{
+  text-align: center;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 1175px;
+}

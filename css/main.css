@@ -1,4 +1,36 @@
-#body-container {
-  margin-top: 50px;
+/*
+Theme Name: Index Page Stylesheet
+Description: Modification on Main Page
+Author: Suilong (Peter) Luo
+Author URI: demolisty24.github.io
+Tags: Margining, Website
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: bold;
+}
 
+body,html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+
+#body-container-padding {
+  margin-top: 50px;
+  padding-bottom:50px;
+}
+#body-container{
+  text-align: justify;
+  width: 100%;
+  margin-left: auto;
+  margin-right: 10%;
+  line-height: 150%;
+  font-size: 130%
 }
