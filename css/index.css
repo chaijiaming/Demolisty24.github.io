@@ -6,7 +6,7 @@ Author URI: demolisty24.github.io
 Tags: Margining, Website
 */
 body{
-	background: url("../img/grass-801753_1280.jpg") no-repeat center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/grass-801753_1280.jpg") no-repeat center;
 	background-size: cover;
 	height: 93%;
 	background-attachment: fixed;
